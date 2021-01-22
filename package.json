@@ -1,0 +1,14 @@
+{
+  "name": "11ty-blog",
+  "version": "1.0.0",
+  "description": "A ridiculously simple blog built on the JAMstack with 11ty",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "author": "nikhilmwarrier",
+  "license": "MIT"
+}
